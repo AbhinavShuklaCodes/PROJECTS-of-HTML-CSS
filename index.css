@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+    color: #a0a0a0;
+    line-height: 1.6;
+}
+.main-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    padding-top: 40px;
+    margin: auto;
+    
+}
+.sidebar{
+    height: 90 vh;
+    background:#2a2a2a;
+    border-radius: 16px;
+    padding: 40px;
+}
+.main-content{
+    height: 90vh;
+    background-color: #2a2a2a;
+    border-radius: 16px;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    image-resolution: 100;
+}
+.profile h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+.profile p{
+    background-color: #1e1e1e;
+    padding: 5px 15px;
+    color: #FFBF00;
+    border: 1px solid #3a3a3a;
+    font-size: .8rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.contact{
+    margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+}
+.label{
+    font-size:.8rem ;
+    font-weight: 500;
+    color: #a0a0a0;
+}
+.value{
+    text-decoration: none;
+    color: #e0e0e0;
+}
+.email,.phone{
+    margin-bottom: 15px;
+}
+.social{
+    margin-top: 30px;
+    text-align: center;
+}
+.social img{
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+    filter: grayscale(1) invert(.7);
+    transform: filter .3s ease;
+}
+.social img:hover{
+    filter:grayscale(0) invert(0);
+
+}
